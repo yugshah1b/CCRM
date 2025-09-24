@@ -1,0 +1,46 @@
+# Quick Demo Commands for CCRM
+
+## Step-by-Step Demo Commands
+
+1. **Compile & Run**
+   ```
+   scripts\compile.bat
+   scripts\run.bat
+   ```
+
+2. **Demo Sequence** (Type these in order when prompted):
+   ```
+   4    # Import/Export Data
+   1    # Import Students
+   4    # Back to Import/Export
+   2    # Import Courses
+   1    # Manage Students (shows count)
+   2    # Manage Courses (shows count)
+   3    # Enrollment & Grades (auto-enrolls)
+   6    # Reports (shows GPA stats)
+   4    # Import/Export Data
+   3    # Export All
+   5    # Backup & Show Backup Size
+   7    # Advanced Features Demo
+   0    # Exit
+   ```
+
+3. **Expected Outputs**:
+   - Students: total = 2
+   - Courses: total = 2
+   - Enrolled Alice Johnson in CS101
+   - GPA Stats => count=2, avg=0.0
+   - Exported to exports
+   - Backup created at backups/YYYYMMDD-HHMMSS size=X bytes
+   - Advanced Features Demo with all Java concepts
+
+4. **File Explorer Check**:
+   - `exports/` folder with students.csv and courses.csv
+   - `backups/` folder with timestamped backup
+
+## Recording Tips
+- Use screen recording software (OBS, Bandicam, etc.)
+- Record at 1920x1080, 30fps
+- Narrate each step clearly
+- Show file structure and code briefly
+- Total time: 5-7 minutes
