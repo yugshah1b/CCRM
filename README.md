@@ -330,9 +330,7 @@ No external dependencies or build tools required.
 
 ## 👨‍💻 Author
 
-**CodeWithAmrat**
-- GitHub: [@CodeWithAmrat](https://github.com/CodeWithAmrat)
-- Project: [CCRM Repository](https://github.com/CodeWithAmrat/CCRM)
+YUG SANJAYKUAMR SHAH
 
 ## 🙏 Acknowledgments
 
